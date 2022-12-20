@@ -29,6 +29,11 @@
   "rules": {
     // "react/sort-comp": 0,
     // "react/jsx-no-bind": 0,
+    "react/no-array-index-key": 0,
+    "camelcase": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-no-constructed-context-values": 0,
+    "no-unused-vars": 0,
     "jsx-a11y/mouse-events-have-key-events": 0,
     "react/prefer-stateless-function": 0,
     "class-methods-use-this": 0,
@@ -63,7 +68,7 @@
       {
         "trailingComma": "es5",
         "singleQuote": false,
-        // "printWidth": 100,
+        "printWidth": 100,
         "tabWidth": 2,
         "semi": true,
         "endOfLine": "auto"

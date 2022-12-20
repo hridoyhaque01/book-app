@@ -1,0 +1,26 @@
+.book-details {
+  padding: 120px 0 120px;
+}
+
+.coverimg {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.coverimg img {
+  width: 100%;
+}
+
+.sub-title {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.autor {
+  margin: 7px 0;
+}
+
+p span,
+p a {
+  color: inherit;
+  margin: 0 5px;
+}

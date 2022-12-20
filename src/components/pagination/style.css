@@ -1,0 +1,18 @@
+.pagination {
+  margin: 80px 0 0;
+}
+
+.pageBtn,
+.prev,
+.next {
+  background-color: var(--light-color);
+  padding: 8px 20px;
+  margin: 0 2px;
+  transition: 0.3s;
+}
+
+.pageBtn.active,
+.pageBtn:hover {
+  color: #fff;
+  background-color: var(--active);
+}

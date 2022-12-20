@@ -1,0 +1,17 @@
+header {
+  padding: 20px 0;
+}
+
+.navbar-brand {
+  width: 70px;
+}
+
+.nav-link {
+  text-transform: capitalize;
+  padding: 0 !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: var(--active) !important;
+}

@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fade-color: rgba(0, 0, 0, 0.549);
+  --light-color: #d9d9d9;
+  --dark-color: #31323b;
+  --active: #1d61ff;
+  --green: #00ff7a;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--fade-color);
+  background-color: rgb(250, 255, 255);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* column-gaps  */
+
+.col-gap-06 {
+  column-gap: 6px;
+}
+
+.col-gap-1 {
+  column-gap: 10px;
+}
+
+.col-gap-2 {
+  column-gap: 20px;
+}
+
+.col-gap-3 {
+  column-gap: 30px;
+}
+
+.col-gap-4 {
+  column-gap: 40px;
+}
+
+.col-gap-5 {
+  column-gap: 50px;
+}
+
+.col-gap-6 {
+  column-gap: 60px;
+}
+
+.row-gap-2 {
+  column-gap: 20px;
+}
+
+.row-gap-3 {
+  column-gap: 30px;
+}
+
+.row-gap-4 {
+  column-gap: 40px;
+}
+
+.title {
+  font-size: 58px;
+  color: var(--dark-color);
+}
+
+.title span {
+  color: var(--green);
+}
+
+/* common button  */
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.common-btn {
+  padding: 14px 35px;
+  color: #fff;
+  background-color: var(--active);
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+.common-btn:hover {
+  background-color: #3270ff;
+}
